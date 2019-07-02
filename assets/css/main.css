@@ -9661,8 +9661,33 @@ body {
   background: #fff;
 }
 
+h1 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 900i;
+}
+
 .navbar {
   background-color: #121619;
+  position: fixed;
+  width: 100vw;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar .current {
+  color: #ECBCBA;
+}
+.navbar img {
+  height: 1.875rem;
+}
+
+header {
+  background-image: url("../img/post-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20rem;
+  text-align: center;
 }
 
 /*@import 'pages/home';

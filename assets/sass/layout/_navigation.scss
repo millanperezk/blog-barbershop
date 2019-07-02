@@ -1,4 +1,17 @@
 .navbar {
   background-color: $eerie-black;
+  position: fixed;
+  width: 100vw;
 
+  a {
+    color: $white;
+  }
+
+  .current {
+    color: $spanish-pink;
+  }
+
+  img {
+    height: $x-large;
+  }
 }
