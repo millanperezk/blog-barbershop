@@ -9656,15 +9656,23 @@ h3 {
   }
 }
 body {
+  background: #fff;
+  color: #6C6E70;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
   margin: 0;
   padding: 0;
   background: #fff;
 }
 
 h1 {
+  font-size: 4.375rem;
   color: #fff;
   font-family: "Playfair Display", serif;
-  font-weight: 900i;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .navbar {
@@ -9674,9 +9682,10 @@ h1 {
 }
 .navbar a {
   color: #fff;
+  margin: 0.4rem;
 }
 .navbar .current {
-  color: #ECBCBA;
+  color: #E56353;
 }
 .navbar img {
   height: 1.875rem;
@@ -9686,7 +9695,7 @@ header {
   background-image: url("../img/post-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20rem;
+  padding: 20%;
   text-align: center;
 }
 
