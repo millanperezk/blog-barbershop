@@ -5,3 +5,22 @@ h1 {
   font-weight: $black;
   font-style: italic;
 }
+
+.main-section__date {
+  font-family: $playfair;
+}
+
+h3 {
+  font-family: $playfair;
+  font-weight: $black;
+  font-style: italic;
+  color: $eerie-black;
+  font-size: $x-large;
+  margin-bottom: .3em;
+}
+
+h4 {
+  font-size: $large;
+  margin-top: .3em;
+  color: $spanish-pink;
+}

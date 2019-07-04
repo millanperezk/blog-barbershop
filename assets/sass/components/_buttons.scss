@@ -1,0 +1,15 @@
+.main-section--btn {
+  &-rounded {
+    border-radius: 30px;
+  }
+
+  &-size {
+    padding: .5rem 1rem;
+  }
+}
+
+.pagination {
+  .previous {
+    border-radius: 50px;
+  }
+}
