@@ -1,0 +1,19 @@
+.pagination-section {
+  background-color: $platinum;
+  padding: 3rem;
+}
+
+.pagination {
+
+  a {
+  color: $eerie-black;
+  }
+  .disabled {
+    color: $light-gray;
+  }
+
+  .current {
+    background-color: $nickel;
+    color: $white;
+  }
+}

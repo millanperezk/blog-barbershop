@@ -6,10 +6,6 @@ h1 {
   font-style: italic;
 }
 
-.main-section__date {
-  font-family: $playfair;
-}
-
 h3 {
   font-family: $playfair;
   font-weight: $black;
@@ -23,4 +19,22 @@ h4 {
   font-size: $large;
   margin-top: .3em;
   color: $spanish-pink;
+}
+
+.main-section {
+  &__text-emphasis {
+    color: $ruddy-pink;
+  }
+
+  &__date {
+    font-family: $playfair;
+    font-size: $medium;
+  }
+
+  &__author {
+    p {
+      font-size: $small;
+      font-weight: $regular;
+    }
+  }
 }
