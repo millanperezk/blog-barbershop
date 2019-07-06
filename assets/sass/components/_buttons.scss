@@ -1,9 +1,23 @@
-.main-section--btn {
-  &-rounded {
+.share__btn {
+  background: $nickel;
+  color: $white;
+
+  &--rounded {
     border-radius: 30px;
   }
 
-  &-size {
+  &--size {
     padding: .5rem 1rem;
+  }
+
+  &:hover {
+    background: $platinum;
+    color: $white;
+  }
+
+  &:active {
+    border: 1px solid $platinum;
+    background: $nickel;
+    color: $white;
   }
 }

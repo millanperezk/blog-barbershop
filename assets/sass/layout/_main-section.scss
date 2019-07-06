@@ -1,28 +1,47 @@
 .main-section {
-  font-weight: $regular;
-
-  p {
-    margin-top: 2rem;
-    line-height: 2.5em;
-  }
-
-  &__author {
-    border-top: 1px solid $light-gray;
-    padding-top: 5rem;
-    padding-bottom:5rem;
-
-    p {
-      margin:0;
-    }
-
-    img {
-      border-radius: 50%;
-      border: solid 1px $light-gray;
-    }
-  }
+  padding-right: 0;
+  padding-left: 0;
 
   &__share {
-    padding-top: 4em;
-    padding-bottom: 5em;
+    margin: 4rem 0;
+    padding-bottom: .5rem;
+  }
+}
+
+.post__date {
+  margin-top: 2.3rem;
+}
+
+.post__text {
+  margin-top: 2rem;
+}
+
+.main-section__author {
+  border-top: 1px solid $light-gray;
+  padding-top: 3.5rem;
+  padding-bottom:4rem;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
+  .author__img {
+    border-radius: 50%;
+    border: solid 1.5px $light-gray;
+    width: $img-normal;
+
+    @media (max-width: 576px) {
+      width: $img-small;
+      margin-bottom: 10px;
+    }
+  }
+
+  .author__contact {
+    @media (min-width: 768px) {
+      padding-left: 30px;
+    }
+  }
+
+  .author__text {
+    padding:0;
   }
 }

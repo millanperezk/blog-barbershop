@@ -1,12 +1,29 @@
-header {
+.header {
   background-image: url("../img/post-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 25% 25% 5% 25%;
+  padding-top: 15%;
+  padding-bottom: 8%;
   text-align: center;
-  color: $white;
-}
 
-i {
-  margin-top: 15rem;
+  @media (max-width: 576px) {
+    padding-top: 10%;
+    max-height: 700px;
+    background-position: center bottom;
+  }
+
+  &__title {
+    margin: 5% 28%;
+
+    @media (max-width: 576px) {
+      margin: 40% 25%;
+      font-size: $x-large;
+    }
+  }
+
+  &__icon {
+    @media (min-width: 768px) {
+      margin-top: 70px;
+    }
+  }
 }

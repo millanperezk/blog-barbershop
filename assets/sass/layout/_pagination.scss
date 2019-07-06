@@ -3,16 +3,14 @@
   padding: 3rem;
 }
 
-.pagination {
-
-  a {
+.pagination__link {
   color: $eerie-black;
-  }
-  .disabled {
+
+  &--disabled {
     color: $light-gray;
   }
 
-  .current {
+  &--current {
     background-color: $nickel;
     color: $white;
   }

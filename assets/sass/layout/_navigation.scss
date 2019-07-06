@@ -1,25 +1,24 @@
 .navbar {
   background-color: $eerie-black;
-  position: fixed;
-  width: 100vw;
+  z-index: 1;
 
-  a {
-    color: $white;
+  &__link {
     margin: .4rem;
   }
 
-  .current {
-    color: $ruddy-pink;
-  }
-
-  img {
+  &__logo {
     height: $x-large;
   }
 
-  z-index: 1;
-
   &-toggler {
     border: 0px;
-    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar__container {
+    margin: 1.5rem;
+    padding: .8rem;
   }
 }

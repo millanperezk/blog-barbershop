@@ -1,40 +1,84 @@
-h1 {
-  font-size: $xx-large;
+p {
+  line-height: 2.5em;
+}
+// Navbar
+
+.navbar__link {
   color: $white;
+
+  &:hover {
+    color: $light-gray;
+  }
+
+  &--current {
+    color: $ruddy-pink;
+
+    &:hover {
+      color: $ruddy-pink;
+    }
+  }
+}
+
+// Header
+.header {
+  color: $white;
+
+  &__title {
+    font-size: $xx-large;
+    color: $white;
+    font-family: $playfair;
+    font-weight: $black;
+    font-style: italic;
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px $nickel;
+
+    @media (max-width: 576px) {
+      font-size: $x-large;
+    }
+  }
+}
+
+
+
+// Main section
+.post__date {
   font-family: $playfair;
-  font-weight: $black;
-  font-style: italic;
+  font-size: $medium;
 }
 
-h3 {
-  font-family: $playfair;
-  font-weight: $black;
-  font-style: italic;
-  color: $eerie-black;
-  font-size: $x-large;
-  margin-bottom: .3em;
-}
+.post__text {
+  font-size: $medium;
 
-h4 {
-  font-size: $large;
-  margin-top: .3em;
-  color: $spanish-pink;
-}
-
-.main-section {
-  &__text-emphasis {
+  &--emphasis {
     color: $ruddy-pink;
   }
+}
 
-  &__date {
+.author {
+  &__name {
     font-family: $playfair;
-    font-size: $medium;
+    font-weight: $black;
+    font-style: italic;
+    color: $eerie-black;
+    font-size: $x-large;
+    margin-bottom: 0.3em;
   }
 
-  &__author {
-    p {
-      font-size: $small;
-      font-weight: $regular;
+  &__link {
+    font-size: $large;
+    margin-top: 0.3em;
+    color: $spanish-pink;
+
+    &:hover {
+      color: $raisin-black;
     }
+
+    &:active {
+      color: $platinum;
+    }
+  }
+
+  &__text {
+    font-size: $small;
   }
 }
